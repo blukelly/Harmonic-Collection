@@ -1,0 +1,65 @@
+*{background-color:#F5F5F5}*
+
+body{
+  cursor: url('image/point.png'), auto;
+}
+
+img{
+  max-height:100vh;
+  overflow:auto;
+}
+
+a{
+  cursor: url('image/click.png'), auto;
+}
+
+.links
+{
+  position: absolute;
+  left:740px;
+  top:310px;
+  font-family: helvetica;
+  font-size: 15px;
+}
+
+#a {
+  position: absolute;
+  left: 250px;
+  top: 200px;
+  max-width: 100px;
+}
+
+#b {
+  position: absolute;
+  left: 1200px;
+  top: 150px;
+  max-width: 100px;
+}
+
+#c {
+  position: absolute;
+  left: 150px;
+  top: 400px;
+  max-width: 100px;
+}
+
+#d {
+  position: absolute;
+  left: 1175px;
+  top: 300px;
+  max-width: 100px;
+}
+
+#e {
+  position: absolute;
+  left: 300px;
+  top: 600px;
+  max-width: 100px;
+}
+
+#f {
+  position: absolute;
+  left: 1275px;
+  top: 560px;
+  max-width: 100px;
+}
