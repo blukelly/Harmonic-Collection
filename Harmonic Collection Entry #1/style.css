@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+body{
+    font-family: 'Concert One', sans-serif;
+}
+
+.center {
+  text-align: center;
+  list-style-position: inside;
+}
+
+    {
+        box-sizing: border-box;
+    }
+
+    .row{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50vh;        
+    }
+
+    .column {
+      text-align: center;
+      margin: 0 20px;
+    }
+
+    .a {
+    width: 3%;
+    color:red;
+    }
+
+    .b {
+    width: 3%;
+    color:orangered;
+    }
+    
+    .c {
+    width: 3%;
+    color:orange;
+    }
+
+    .d {
+    width: 5%;
+    color:gold;
+    }
+
+    .e {
+    width: 4%;
+    color:greenyellow;
+    }
+    
+    .f {
+    width: 2%;
+    color:green;
+    }
+
+    .g {
+    width: 3%;
+    color:seagreen;
+    }
+
+    .h {
+    width: 4%;
+    color:cyan;
+    }
+    
+    .i {
+    width: 4%;
+    color:blue;
+    }
+
+    .j {
+    width: 6%;
+    color: blueviolet;
+    }
+
+    .k {
+    width: 3%;
+    color:mediumpurple;
+    }
+    
+    .l {
+    width: 4%;
+    color:violet;
+    }
+
+    .m {
+    width: 3%;
+    color:purple;
+    }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
