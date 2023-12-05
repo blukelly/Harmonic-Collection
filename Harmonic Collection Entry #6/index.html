@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Entry #6</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<center>
+		<h1>Give Me A BIBI(eat)</h1>
+		</center>
+  	<div class="grid-container">
+    	<div class="grid-item">
+      		<a href="https://open.spotify.com/track/4d79iPe88TzFewhFk2vrcy?si=c4b512eda0544f92">
+        	<img src="images/bibi.png">
+        	<div class="hover-image hover-image1"></div>
+      		</a>
+    	</div>
+    	<div class="grid-item">
+      		<a href="https://open.spotify.com/track/0lSJQip2wVidbu1JfZ4IEQ?si=56e36a6d54b44ad3">
+        	<img src="images/bibi2.png">
+        	<div class="hover-image hover-image2"></div>
+      		</a>
+    	</div>
+    	<div class="grid-item">
+      		<a href="https://open.spotify.com/track/245onUPHGD1DYuiacxTuW0?si=38337baf5ef14088">
+        	<img src="images/bibi3.png">
+        	<div class="hover-image hover-image3"></div>
+      		</a>
+    	</div>
+    	<div class="grid-item">
+      		<a href="https://open.spotify.com/track/0VES0jpNQEdRpD31gYDIMe?si=67da620001ba4c83">
+        	<img src="images/bibi4.jpeg">
+        	<div class="hover-image hover-image4"></div>
+      		</a>
+    	</div>
+    	<div class="grid-item">
+      		<a href="https://open.spotify.com/track/164rrRJLHNzPKIR82BCDQU?si=8d629d1d65cb4649">
+        	<img src="images/bibi5.png">
+        	<div class="hover-image hover-image5"></div>
+      		</a>
+    	</div>
+    	<div class="grid-item">
+      		<a href="https://open.spotify.com/track/3VBNbWmVsBpmJrIHdk5reS?si=c4a8c16337874fcb">
+        	<img src="images/bibi6.png">
+        	<div class="hover-image hover-image6"></div>
+      		</a>
+    	</div>
+    	<div class="grid-item">
+      		<a href="https://open.spotify.com/track/5q3LwAHTqo9d3rET2EA9Nq?si=b6074c6ff30242f9">
+        	<img src="images/bibi7.png">
+        	<div class="hover-image hover-image7"></div>
+      		</a>
+    	</div>
+    	<div class="grid-item">
+      		<a href="https://open.spotify.com/track/3fU8FWNIgHEOepLTidZWyq?si=6eddb7b952fc4bb7">
+        	<img src="images/bibi8.png">
+        	<div class="hover-image hover-image8"></div>
+      		</a>
+    	</div>
+    	<div class="grid-item">
+      		<a href="https://open.spotify.com/track/0ra3bPUOj2YnY4FJHXtgHZ?si=780218d364214d62">
+        	<img src="images/bibi9.jpg">
+        	<div class="hover-image hover-image9"></div>
+      		</a>
+    	</div>
+    	<div class="grid-item">
+      		<a href="https://open.spotify.com/track/0nkmvo78mFGGRab2BwK37i?si=1ed60da1108446fa">
+        	<img src="images/bibi0.png">
+        	<div class="hover-image hover-image10"></div>
+      		</a>
+    	</div>
+  </div>
+    <script>
+    function updateGrid() {
+      const gridContainer = document.querySelector('.grid-container');
+      const width = window.innerWidth;
+
+      // Calculate number of columns based on window width
+      const columns = Math.min(Math.floor(width / 200), 5); // Adjust column width as needed
+
+      // Calculate number of rows based on total grid items and number of columns
+      const gridItems = document.querySelectorAll('.grid-item');
+      const rows = Math.max(Math.ceil(gridItems.length / columns), 2);
+
+      // Apply new grid layout
+      gridContainer.style.gridTemplateColumns = `repeat(auto-fit, minmax(calc(${100 / columns}% - 10px), 1fr))`;
+      gridContainer.style.gridAutoRows = `calc((100% - ${rows * 10}px) / ${rows})`;
+    }
+
+    // Update grid on window resize
+    window.addEventListener('resize', updateGrid);
+
+    // Initial grid setup
+    updateGrid();
+  </script>
+	</body>
+</html>

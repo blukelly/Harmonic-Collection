@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Berkshire+Swash&family=Bungee+Outline&family=Emblema+One&family=Licorice&family=Lobster+Two&family=Racing+Sans+One&family=Rubik&family=Rubik+Wet+Paint&family=Rye&family=Shizuru&family=Train+One&display=swap');
+
+h1{
+  font-size:100px;
+  color:white;
+}
+
+*{
+  margin:5;
+  padding:0;
+  background-color: #FF7F50;
+}
+
+body{
+  font-family: 'Rubik', sans-serif;
+  text-align:center;
+  color:white;
+}
+
+button{
+  font-family: 'Bagel Fat One', sans-serif;
+  border-width:0;
+  font-size:75px;
+  margin:20px;
+  color:white;
+}
+
+button:hover span {
+  display: none
+}
+
+button:hover:before {
+  content: "Pose"
+}
+
+button.only{
+  font-family: 'Berkshire Swash', sans-serif;  
+  border-width:0;
+  font-size:75px;
+  margin:20px;
+  color:white;
+}
+
+button.only:hover span {
+  display: none
+}
+
+button.only:hover:before {
+  content: "So Good"
+}
+
+button.better{
+  font-family: 'Lobster Two', sans-serif;  
+  border-width:0;
+  font-size:50px;
+  margin:20px;
+  color:white;
+}
+
+button.better:hover span {
+  display: none
+}
+
+button.better:hover:before {
+  content: "RBB (Really Bad Boy)"
+}
+
+button.callyou{
+  font-family: 'Racing Sans One', sans-serif;  
+  border-width:0;
+  font-size:50px;
+  margin:20px;
+}
+
+button.callyou:hover span {
+  display: none
+}
+
+button.callyou:hover:before {
+  content: "Why Can't You Love Me?"
+}
+
+button.lunatic{
+  font-family: 'Rye', sans-serif;  
+  border-width:0;
+  font-size:50px;
+  margin:20px;
+}
+
+button.lunatic:hover span {
+  display: none
+}
+
+button.lunatic:hover:before {
+  content: "Hello, Sunset"
+}
+
+button.play{
+  font-family: 'Shizuru', sans-serif;  
+  border-width:0;
+  font-size:50px;
+  margin:20px;
+}
+
+button.play:hover span {
+  display: none
+}
+
+button.play:hover:before {
+  content: "Good, Bad, Ugly"
+}
+
+button.antifreeze{
+  font-family: 'Emblema One', sans-serif;  
+  border-width:0;
+  font-size:50px;
+  margin:20px;
+}
+
+button.antifreeze:hover span {
+  display: none
+}
+
+button.antifreeze:hover:before {
+  content: "LP"
+}
+
+button.walls{
+  font-family: 'Rubik Wet Paint', sans-serif;  
+  border-width:0;
+  font-size:50px;
+  margin:20px;
+}
+
+button.walls:hover span {
+  display: none
+}
+
+button.walls:hover:before {
+  content: "Los Angelas"
+}
+
+button.sick{
+  font-family: 'Bungee Outline', sans-serif;  
+  border-width:0;
+  font-size:50px;
+  margin:20px;
+}
+
+button.sick:hover span {
+  display: none
+}
+
+button.sick:hover:before {
+  content: "Naughty"
+}
+
+button.talk{
+  font-family: 'Licorice', sans-serif;  
+  border-width:0;
+  font-size:50px;
+  margin:20px;
+}
+
+button.talk:hover span {
+  display: none
+}
+
+button.talk:hover:before {
+  content: "Don't U Wait No More"
+}

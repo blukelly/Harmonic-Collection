@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+
+    body {
+      font-family: 'Rammetto One';
+      background-color: lightgrey;
+      color: indianred;
+      font-size: 4.5vw;
+      text-align: center;
+    }
+    
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 80vh;
+    }
+    
+    .item {
+      text-align: center;
+      animation: spinType 2s infinite; /* Applied the animation to all items */
+      margin-bottom: 20px; /* Added space between items */
+    }
+
+    @keyframes spinType {
+      0% {
+        transform: rotate(0);
+      }
+      100% {
+        transform: rotate(2turn);
+      }
+    }
+
+    /* Define styles for images */
+    .item img {
+      width: 500px; /* Adjust the width as needed */
+      height: auto; /* Maintain aspect ratio */
+    }
